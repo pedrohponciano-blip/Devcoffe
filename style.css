@@ -1,0 +1,62 @@
+body { 
+    background-color:
+#ca2525;
+}
+
+body{ text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #e77315;
+    line-height: 1.4;
+}
+
+header ul { list-style: none;
+    background-color: #b47727;
+    text-align:center;
+    padding: 30px;
+    a:hover {
+        color: #2c2104;
+
+    }
+}
+
+h1 { background-color: #b47727;
+    margin-bottom: 15px;
+}
+
+h2{
+    border-bottom: 2px solid #d2691e;
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.lista-cafes{ list-style: none;
+    border-left: 5px solid #d6c31c;
+    padding-left: 10px;
+}
+.produto {
+    list-style: none;
+    border: 1px solid #19d15f;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding :30 px;
+    color: #fff;
+}
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    gap: 20px;
+    grid-column: span 2;
+    
+}
+
+

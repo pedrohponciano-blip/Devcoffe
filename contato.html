@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devcoffe | Cafeteria & Comercial Coworking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <fieldset>
+        <h1>@#@#@#@#@#@#@#@&Devcoffe&#@#@#@#@#@#@#@#</h1>
+        </fieldset>
+        <ul>
+            
+            <li><fieldset><a href="index.html">Inicio</a></fieldset></li>
+            <li><fieldset><a href="cardapio.html">Cardapio</a></fieldset></li>
+            <li><fieldset><a href="contato.html">Contato</a></fieldset></li>
+            <li><fieldset><a href="sobre.html">Sobre Nós</a></fieldset></li>
+            
+        </ul>
+        <main>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>
+                        solicitar reserva
+                    </legend>
+                    <div>
+                         <label for="name">nome: </label>
+                        <input type="text" name="nome" id="nome-completo" placeholder="jose da silva" required>
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="jose@teste.com" required>
+                    </div>
+                    <div>
+                        <label for="data-reserva">Data da Reserva</label>
+                        <input type="date" name="data" id="data-reserva">
+                    </div>
+                    <div>
+                        <label for="qtd-pessoas">Quantidade de pessoas</label>
+                        <input type="number" min="1" max="20" id="qtd-pessoas">
+                    </div>
+                    <div>
+                        <label for="telefone">telefone</label>
+                        <input type="tel" id="telefone" placeholder="(43 9999-9999)" required>
+                    </div>
+
+                </fieldset>
+            </form>
+            <button type="submit">Confirmar Reserva</button>
+
+        </main>
+    </header>
+    <footer>"c 2026 DevCoffe - Aberto todos os dias das 8h às 20h"</footer>
+</body>
+
+</html>
